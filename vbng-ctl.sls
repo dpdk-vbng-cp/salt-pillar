@@ -1,3 +1,10 @@
+bng_utils:
+  config: |
+    # options for redis-connector
+    #
+    #
+    OPTIONS="--redis-host 127.0.0.1 --redis-port 6379 --redis-channel accel-ppp --telnet-host-uplink 127.0.0.1 --telnet-port-uplink 8086 --telnet-host-downlink 127.0.0.1 --telnet-port-downlink 8087"
+
 accel_ppp:
   config: |
     [modules]
