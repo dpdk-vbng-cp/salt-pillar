@@ -1,2 +1,2 @@
 include:
-- vbng-control.systemd-networkd
+- vbng-control.empty
